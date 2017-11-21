@@ -14,7 +14,7 @@ We investigate different machine learning techniques like:
 ## Getting Started
 ### Prerequisites
 Before running this project, make sure you have following dependencies - 
-* [Dataset](https://drive.google.com/folderview?id=0Bw239KLrN7zofmxvSmtsVHlrbkFRY1NwMjh2NFJGX1ZtY0lKOTR0REJnQnBUdVgyVDlMMkk&usp=sharing) (Download the images from this link)
+* [Dataset](https://drive.google.com/file/d/15bikHgG8Y13vWdMQ-6-MK0y8AI3sGBfe/view?usp=sharing) (Download the images from this link)
 * [Python 3.6](https://www.python.org/downloads/)
 * [pip](https://pypi.python.org/pypi/pip)
 * [OpenCV](https://docs.opencv.org/3.0-beta/doc/py_tutorials/py_setup/py_setup_in_windows/py_setup_in_windows.html)
@@ -38,8 +38,8 @@ To run the project, perform following steps -
  6. Test the model - `predict_from_file.py <model-name>`.
  7. To obtain Better Results, train the model using Convolutional Neural Network which can be done by running the cnn.py file after activating Tesorflow.
  
- #### Accuracy without CNN
-The best accuracy was achieved by CNN using Momentum Optimizer and a learning rate of 0.5.The Plot for the same is depicted bleow.
+ #### Accuracy with CNN
+The best accuracy was achieved by CNN using Momentum Optimizer and a learning rate of 0.3.The Plot for the same is depicted bleow.
 
 <p align="center">
   <br>
