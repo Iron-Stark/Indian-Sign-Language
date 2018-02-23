@@ -1,0 +1,32 @@
+Model used = 'AdaBoost'Classifier model details:
+AdaBoostClassifier(algorithm='SAMME.R', base_estimator=None,
+          learning_rate=1.0, n_estimators=50, random_state=None)
+
+Model score:
+0.13333
+
+Classification report:
+             precision    recall  f1-score   support
+
+          a       0.00      0.00      0.00         6
+          b       0.00      0.00      0.00         9
+          d       0.00      0.00      0.00         3
+          e       0.00      0.00      0.00         2
+          f       0.00      0.00      0.00         3
+          g       0.00      0.00      0.00         6
+          h       0.00      0.00      0.00         7
+          k       0.00      0.00      0.00         4
+          m       0.00      0.00      0.00         5
+          n       0.00      0.00      0.00         5
+          o       0.05      1.00      0.10         2
+          p       0.00      0.00      0.00         4
+          q       0.00      0.00      0.00         3
+          r       0.00      0.00      0.00         1
+          s       0.00      0.00      0.00         1
+          t       0.50      0.33      0.40        12
+          x       0.18      0.67      0.29         9
+          z       0.00      0.00      0.00         8
+
+avg / total       0.09      0.13      0.08        90
+
+

@@ -1,8 +1,6 @@
-Model used = 'svm'Classifier model details:
-SVC(C=1.0, cache_size=200, class_weight=None, coef0=0.0,
-  decision_function_shape='ovr', degree=1, gamma='auto', kernel='poly',
-  max_iter=-1, probability=False, random_state=None, shrinking=True,
-  tol=0.001, verbose=False)
+Model used = 'LinearDiscriminantAnalysis'Classifier model details:
+LinearDiscriminantAnalysis(n_components=None, priors=None, shrinkage=None,
+              solver='svd', store_covariance=False, tol=0.0001)
 
 Model score:
 0.93333
@@ -10,8 +8,8 @@ Model score:
 Classification report:
              precision    recall  f1-score   support
 
-          a       1.00      0.67      0.80         6
-          b       1.00      1.00      1.00         9
+          a       1.00      0.50      0.67         6
+          b       0.90      1.00      0.95         9
           d       1.00      1.00      1.00         3
           e       1.00      1.00      1.00         2
           f       1.00      1.00      1.00         3
@@ -19,15 +17,15 @@ Classification report:
           h       1.00      1.00      1.00         7
           k       1.00      1.00      1.00         4
           m       1.00      1.00      1.00         5
-          n       1.00      1.00      1.00         5
+          n       0.83      1.00      0.91         5
           o       1.00      1.00      1.00         2
           p       1.00      1.00      1.00         4
-          q       0.75      1.00      0.86         3
+          q       0.60      1.00      0.75         3
           r       1.00      1.00      1.00         1
           s       1.00      1.00      1.00         1
-          t       0.73      0.92      0.81        12
-          x       0.86      0.67      0.75         9
-          z       1.00      1.00      1.00         8
+          t       0.92      1.00      0.96        12
+          x       0.88      0.78      0.82         9
+          z       1.00      0.88      0.93         8
 
 avg / total       0.94      0.93      0.93        90
 

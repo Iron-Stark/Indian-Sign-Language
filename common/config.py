@@ -16,7 +16,7 @@ def merge_paths(key, path):
 
 
 def populate_config():
-    add_config('data_root_path', "C:\\Users\\dewan\\Desktop\\Project\\data")
+    add_config('data_root_path', "C:\\Users\\Subham\\Documents\\Indian-Sign-Language\\data")
 
     add_config('training_images_dir_path', merge_paths(
         'data_root_path', 'images\\train'))
@@ -37,7 +37,8 @@ def populate_config():
     add_config('output_dir_path', merge_paths(
         'generated_data_dir_path', 'output'))
 
-    for model_name in ["knn", "logistic", "svm"]:
+    for model_name in ["knn", "logistic", "svm", "DecisionTree" , "GaussianNB" , "RandomForest", "LinearDiscriminantAnalysis", 
+                      "Bagging" , "ExtraTrees", "AdaBoost" ,"GradientBoosting", "Voting"]:
         key = 'model_{}_output_dir_path'.format(model_name)
         value = merge_paths('output_dir_path', '{}'.format(model_name))
         add_config(key, value)

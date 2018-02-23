@@ -1,0 +1,31 @@
+Model used = 'GaussianNB'Classifier model details:
+GaussianNB(priors=None)
+
+Model score:
+0.50000
+
+Classification report:
+             precision    recall  f1-score   support
+
+          a       0.16      0.50      0.24         6
+          b       0.82      1.00      0.90         9
+          d       1.00      0.67      0.80         3
+          e       0.00      0.00      0.00         2
+          f       0.00      0.00      0.00         3
+          g       1.00      0.17      0.29         6
+          h       1.00      0.43      0.60         7
+          k       0.00      0.00      0.00         4
+          m       1.00      0.20      0.33         5
+          n       0.00      0.00      0.00         5
+          o       1.00      0.50      0.67         2
+          p       0.00      0.00      0.00         4
+          q       0.50      0.33      0.40         3
+          r       0.00      0.00      0.00         1
+          s       0.00      0.00      0.00         1
+          t       0.56      0.83      0.67        12
+          x       0.28      0.78      0.41         9
+          z       1.00      0.88      0.93         8
+
+avg / total       0.56      0.50      0.46        90
+
+

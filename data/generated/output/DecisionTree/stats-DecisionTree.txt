@@ -1,0 +1,36 @@
+Model used = 'DecisionTree'Classifier model details:
+DecisionTreeClassifier(class_weight=None, criterion='gini', max_depth=None,
+            max_features=None, max_leaf_nodes=None,
+            min_impurity_decrease=0.0, min_impurity_split=None,
+            min_samples_leaf=1, min_samples_split=2,
+            min_weight_fraction_leaf=0.0, presort=False, random_state=None,
+            splitter='best')
+
+Model score:
+0.75556
+
+Classification report:
+             precision    recall  f1-score   support
+
+          a       0.50      0.50      0.50         6
+          b       1.00      0.89      0.94         9
+          d       0.75      1.00      0.86         3
+          e       1.00      1.00      1.00         2
+          f       1.00      0.67      0.80         3
+          g       1.00      0.83      0.91         6
+          h       0.75      0.86      0.80         7
+          k       1.00      1.00      1.00         4
+          m       0.80      0.80      0.80         5
+          n       0.67      0.80      0.73         5
+          o       1.00      1.00      1.00         2
+          p       0.75      0.75      0.75         4
+          q       0.43      1.00      0.60         3
+          r       0.00      0.00      0.00         1
+          s       0.00      0.00      0.00         1
+          t       0.91      0.83      0.87        12
+          x       0.71      0.56      0.63         9
+          z       0.57      0.50      0.53         8
+
+avg / total       0.78      0.76      0.76        90
+
+
