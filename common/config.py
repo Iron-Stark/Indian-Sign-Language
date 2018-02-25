@@ -38,7 +38,7 @@ def populate_config():
         'generated_data_dir_path', 'output'))
 
     for model_name in ["knn", "logistic", "svm", "DecisionTree" , "GaussianNB" , "RandomForest", "LinearDiscriminantAnalysis", 
-                      "Bagging" , "ExtraTrees", "AdaBoost" ,"GradientBoosting", "Voting"]:
+                      "Bagging" , "ExtraTrees", "AdaBoost" ,"GradientBoosting", "Voting","MLP"]:
         key = 'model_{}_output_dir_path'.format(model_name)
         value = merge_paths('output_dir_path', '{}'.format(model_name))
         add_config(key, value)

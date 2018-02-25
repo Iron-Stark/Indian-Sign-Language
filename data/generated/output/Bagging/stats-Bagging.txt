@@ -1,0 +1,36 @@
+Model used = 'Bagging'Classifier model details:
+BaggingClassifier(base_estimator=None, bootstrap=True,
+         bootstrap_features=False, max_features=1.0, max_samples=1.0,
+         n_estimators=10, n_jobs=1, oob_score=False, random_state=None,
+         verbose=0, warm_start=False)
+
+Model score:
+0.89610
+
+Classification report:
+             precision    recall  f1-score   support
+
+          a       1.00      0.73      0.84        11
+          b       0.80      1.00      0.89         8
+          d       1.00      1.00      1.00         5
+          e       0.80      0.80      0.80         5
+          f       0.86      1.00      0.92         6
+          g       1.00      1.00      1.00         8
+          h       1.00      0.92      0.96        13
+          j       1.00      0.50      0.67         6
+          k       1.00      0.67      0.80         6
+          m       0.69      0.90      0.78        10
+          n       0.77      0.83      0.80        12
+          o       1.00      1.00      1.00         6
+          p       0.86      0.86      0.86         7
+          q       0.57      1.00      0.73         4
+          r       1.00      0.75      0.86         8
+          s       1.00      1.00      1.00        12
+          t       1.00      1.00      1.00         8
+          x       0.86      1.00      0.92         6
+          y       1.00      1.00      1.00         6
+          z       1.00      1.00      1.00         7
+
+avg / total       0.92      0.90      0.90       154
+
+
